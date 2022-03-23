@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Chrome, Safari, Edge, Opera */
+.input-number-no-arrow::-webkit-outer-spin-button,
+.input-number-no-arrow::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.input-number-no-arrow {
+  -moz-appearance: textfield;
+}
+
+.input {
+  @apply border-2 rounded py-2 px-2 border-gray-500 outline-none focus:border-blue-400
+}
